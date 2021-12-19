@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ sidebar }}
+<div id="content">
+    <h1>quiz</h1>
+    <p>{{ user.get_all_permissions }}</p>
+</div>    
+{% endblock %}
